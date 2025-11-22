@@ -136,10 +136,6 @@
         align-items: center;
     }
 
-    .al-s-between {
-        align-items: space-between;
-    }
-
     .al-s-start {
         align-items: flex-start;
     }

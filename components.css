@@ -35,7 +35,7 @@
 
     .logo__title__container h2{
         margin:var(--space-0);
-        font-family:var(--font-family-hand);
+        font-family: var(--font-family-hand), serif;
         color:var(--color-secondary);
         font-size:var(--font-size-md);
         font-weight:var(--font-weight-regular);
@@ -302,7 +302,7 @@
         padding: var(--space-5);
         width: 15rem;
         height: 12rem;
-        box-shadow: var(--color-bg) 0rem 0.25rem 0.375rem; /* 0px 4px 6px -> 0rem 0.25rem 0.375rem */
+        box-shadow: var(--color-bg) 0 0.25rem 0.375rem; /* 0px 4px 6px -> 0rem 0.25rem 0.375rem */
         position: relative;
         transition: transform 160ms ease, text-decoration-color 160ms ease;
         transform-origin: center center;
@@ -347,7 +347,7 @@
         background-color: var(--color-primary);
         border-radius: 0 var(--radius-lg) var(--radius-lg) var(--radius-lg);
         padding: var(--space-5);
-        box-shadow: var(--color-bg) 0rem 0.25rem 0.375rem; /* converted shadow */
+        box-shadow: var(--color-bg) 0 0.25rem 0.375rem; /* converted shadow */
         height: fit-content;
         width: calc(var(--size-width-vp) * 0.4);
         color: var(--color-text-dark);

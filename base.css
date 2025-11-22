@@ -76,7 +76,7 @@
     /* *************************************************************************** */
 
     html {
-        font-family: var(--font-family-roboto);
+        font-family: var(--font-family-roboto), serif;
         color: var(--color-text-light);
     }
 
