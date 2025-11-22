@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="landing">
+<div class="landing__container">
     <header class="header flex al-s-center gap-2 al-m-between">
         <a href="Main.html" class="logo__container flex al-s-center gap-2">
             <div class="logo__image">
@@ -24,7 +24,7 @@
         </label>
         <div class="nav__container">
             <nav class="nav">
-                <ul id="navList" class="nav__list flex-center gap-5">
+                <ul class="nav__list flex-center gap-5">
                     <li class="menu__item__with__icon flex al-s-center gap-1">
                         <a href="Provozovny.html">Provozovny</a>
                         <img src="images/arrowDropDown.svg" alt="Arrow Down">
@@ -50,70 +50,67 @@
         </div>
     </header>
     <main class="main flex flex-col al-m-center gap-0">
-        <div class="landing__container flex flex-col">
+        <div class="sub-page__header flex flex-col al-s-center gap-2">
             <div class="img__wrapper flex al-s-end">
                 <img src="images/backgroundImage.jpg" alt="background image" class="bg__image">
                 <div class="dark__overlay"></div>
             </div>
-            <div class="content__container flex">
-                <div class="title__container flex flex-col al-m-center gap-2 text-left">
-                    <h1 class="main__title">Komunální i komerční služby s respektem
-                        k přírodě</h1>
-                    <a href="Provozovny.html" class="button__w__text flex al-s-center gap-2">
-                        Zobrazit provozovny
+            <div class="sub-page__title__container flex flex-row al-m-start al-s-center gap-2">
+                <h1 class="sub-page__title">Služby</h1>
+            </div>
+        </div>
+        <div class="content__container content__container--grid grid">
+            <div class="service__container flex al-s-center flex-col gap-3">
+                <div class="service__title__container flex al-s-center gap-3">
+                    <img src="images/trash_icon.svg" alt="waste collection icon">
+                    <h2 class="service__title">Sběr a svoz odpadu</h2>
+                </div>
+                <ul class="card__links flex flex-col al-m-center">
+                    <li class="service__item">
+                        <a class="service__link flex al-s-center" href="#">
+                            <h6 class="service__item__title">Průmyslový Odpad</h6>
+                            <img src="images/arrowRightDark.svg" alt="icon image">
+                        </a>
+                    </li>
+                    <li class="service__item">
+                        <a class="service__link flex al-s-center" href="#">
+                            <h6 class="service__item__title">Tříděný odpad</h6>
+                            <img src="images/arrowRightDark.svg" alt="icon image">
+                        </a>
+                    </li>
+                    <li class="service__item">
+                        <a class="service__link flex al-s-center" href="#">
+                            <h6 class="service__item__title">Bioodpad</h6>
+                            <img src="images/arrowRightDark.svg" alt="icon image">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="service__container flex al-s-center flex-col gap-3">
+                <div class="service__title__container flex al-s-center gap-3">
+                    <img src="images/trash_icon.svg" alt="waste collection icon">
+                    <h2 class="service__title">Recyklace a zpracování odpadu</h2>
+                </div>
+                <ul class="card__links flex flex-col al-m-center">
+                    <li class="service__item">
+                        <a class="service__link flex al-s-center" href="#">
+                            <h6 class="service__item__title">Biodegradace, dekontaminace</h6>
+                            <img src="images/arrowRightDark.svg" alt="icon image">
+                        </a>
+                    </li>
+                    <li class="service__item">
+                        <a class="service__link flex al-s-center" href="#">
+                            <h6 class="service__item__title">kompostování odpadů</h6>
+                            <img src="images/arrowRightDark.svg" alt="icon image">
+                        </a>
+                    </li>
+                <li class="service__item">
+                    <a class="service__link flex al-s-center" href="#">
+                        <h6 class="service__item__title">Dřevěný odpad</h6>
+                        <img src="images/arrowRightDark.svg" alt="icon image">
                     </a>
-                </div>
-                <div class="dashboard__cards__container flex flex-col al-s-end gap-4">
-                    <div class="dashboard__card flex flex-col al-m-center text-right gap-2">
-                        <h2 class="card__title">40+</h2>
-                        <h6 class="card__subtitle">provozoven v Česku</h6>
-                    </div>
-                    <div class="dashboard__card dashboard__card--large flex flex-col al-m-center text-right gap-2">
-                        <h2 class="card__title">40 000+</h2>
-                        <h6 class="card__subtitle">spokojených clientů</h6>
-                    </div>
-                    <div class="dashboard__card flex flex-col al-m-center text-right gap-2">
-                        <h2 class="card__title">37 let</h2>
-                        <h6 class="card__subtitle">zkušeností na trhu</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="about__container flex">
-            <div class="about__card">
-                <h2 class="about__title">O nás</h2>
-                <p class="about__text">Marius Pedersen A/S je dánská společnost specializující se na nakládání s odpady, údržbu veřejných prostor a vývoj technologií na zpracování odpadů. Na český trh vstoupila počátkem 90. let a rychle se stala lídrem  v odpadovém hospodářství.
-
-                    Využívá vlastní technologie, jako jsou třídicí linky, zařízení na výrobu alternativních paliv, kompostárny či skládky nebezpečných odpadů, a zaměřuje se na komplexní služby pro své zákazníky.</p>
-            </div>
-            <div class="dashboard__cards__container flex al-s-end gap-4">
-                <div class="dashboard__card flex flex-col al-m-center text-right gap-2">
-                    <h2 class="card__title">3 000</h2>
-                    <h6 class="card__subtitle">kvalifikovaných pracovníků</h6>
-                </div>
-                <div class="dashboard__card dashboard__card--large flex flex-col al-m-center text-right gap-2">
-                    <h2 class="card__title">26</h2>
-                    <h6 class="card__subtitle">dceřiných společností</h6>
-                </div>
-                <div class="dashboard__card flex flex-col al-m-center text-right gap-2">
-                    <h2 class="card__title">700</h2>
-                    <h6 class="card__subtitle">tisíc využitých tun odpadu ročně</h6>
-                </div>
-            </div>
-        </div>
-        <div class="info__container flex flex-row al-m-center">
-            <div class="img__wrapper flex al-s-end">
-                <img src="images/backgroundImageSec.jpg" alt="background image" class="bg__image">
-                <div class="dark__overlay"></div>
-            </div>
-            <div class="content__container flex al-m-between">
-                <div class="text flex al-s-center gap-4">
-                    <h1 class="main__title">Zaměřujeme se na udržitelnost</h1>
-                </div>
-                <div class="dashboard__card flex flex-col al-m-center text-right gap-2">
-                    <h2 class="card__title">Efektivní nakládání s odpady</h2>
-                    <h6 class="card__subtitle">Efektivní třídění a zpracování odpadu je základním kamenem pro minimalizaci jeho dopadu na životní prostředí.</h6>
-                </div>
+                </li>
+                </ul>
             </div>
         </div>
     </main>

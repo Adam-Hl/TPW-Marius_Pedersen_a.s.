@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="landing">
+<div class="landing__container">
     <header class="header flex al-s-center gap-2 al-m-between">
         <a href="Main.html" class="logo__container flex al-s-center gap-2">
             <div class="logo__image">
@@ -24,7 +24,7 @@
         </label>
         <div class="nav__container">
             <nav class="nav">
-                <ul id="navList" class="nav__list flex-center gap-5">
+                <ul class="nav__list flex-center gap-5">
                     <li class="menu__item__with__icon flex al-s-center gap-1">
                         <a href="Provozovny.html">Provozovny</a>
                         <img src="images/arrowDropDown.svg" alt="Arrow Down">
@@ -50,69 +50,75 @@
         </div>
     </header>
     <main class="main flex flex-col al-m-center gap-0">
-        <div class="landing__container flex flex-col">
+        <div class="sub-page__header flex flex-col al-s-center gap-2">
             <div class="img__wrapper flex al-s-end">
                 <img src="images/backgroundImage.jpg" alt="background image" class="bg__image">
                 <div class="dark__overlay"></div>
             </div>
-            <div class="content__container flex">
-                <div class="title__container flex flex-col al-m-center gap-2 text-left">
-                    <h1 class="main__title">Komunální i komerční služby s respektem
-                        k přírodě</h1>
-                    <a href="Provozovny.html" class="button__w__text flex al-s-center gap-2">
-                        Zobrazit provozovny
-                    </a>
-                </div>
-                <div class="dashboard__cards__container flex flex-col al-s-end gap-4">
-                    <div class="dashboard__card flex flex-col al-m-center text-right gap-2">
-                        <h2 class="card__title">40+</h2>
-                        <h6 class="card__subtitle">provozoven v Česku</h6>
-                    </div>
-                    <div class="dashboard__card dashboard__card--large flex flex-col al-m-center text-right gap-2">
-                        <h2 class="card__title">40 000+</h2>
-                        <h6 class="card__subtitle">spokojených clientů</h6>
-                    </div>
-                    <div class="dashboard__card flex flex-col al-m-center text-right gap-2">
-                        <h2 class="card__title">37 let</h2>
-                        <h6 class="card__subtitle">zkušeností na trhu</h6>
-                    </div>
-                </div>
+            <div class="sub-page__title__container flex flex-row al-m-start al-s-center gap-2">
+                <h1 class="sub-page__title">Kontakt</h1>
             </div>
         </div>
-        <div class="about__container flex">
-            <div class="about__card">
-                <h2 class="about__title">O nás</h2>
-                <p class="about__text">Marius Pedersen A/S je dánská společnost specializující se na nakládání s odpady, údržbu veřejných prostor a vývoj technologií na zpracování odpadů. Na český trh vstoupila počátkem 90. let a rychle se stala lídrem  v odpadovém hospodářství.
-
-                    Využívá vlastní technologie, jako jsou třídicí linky, zařízení na výrobu alternativních paliv, kompostárny či skládky nebezpečných odpadů, a zaměřuje se na komplexní služby pro své zákazníky.</p>
-            </div>
-            <div class="dashboard__cards__container flex al-s-end gap-4">
-                <div class="dashboard__card flex flex-col al-m-center text-right gap-2">
-                    <h2 class="card__title">3 000</h2>
-                    <h6 class="card__subtitle">kvalifikovaných pracovníků</h6>
+        <div class="content__container">
+            <div class="contact__container flex flex-col al-s-center gap-4">
+                <div class="contact__title__container flex al-m-start">
+                    <h2 class="contact__title">Sídlo společnosti</h2>
                 </div>
-                <div class="dashboard__card dashboard__card--large flex flex-col al-m-center text-right gap-2">
-                    <h2 class="card__title">26</h2>
-                    <h6 class="card__subtitle">dceřiných společností</h6>
-                </div>
-                <div class="dashboard__card flex flex-col al-m-center text-right gap-2">
-                    <h2 class="card__title">700</h2>
-                    <h6 class="card__subtitle">tisíc využitých tun odpadu ročně</h6>
-                </div>
-            </div>
-        </div>
-        <div class="info__container flex flex-row al-m-center">
-            <div class="img__wrapper flex al-s-end">
-                <img src="images/backgroundImageSec.jpg" alt="background image" class="bg__image">
-                <div class="dark__overlay"></div>
-            </div>
-            <div class="content__container flex al-m-between">
-                <div class="text flex al-s-center gap-4">
-                    <h1 class="main__title">Zaměřujeme se na udržitelnost</h1>
-                </div>
-                <div class="dashboard__card flex flex-col al-m-center text-right gap-2">
-                    <h2 class="card__title">Efektivní nakládání s odpady</h2>
-                    <h6 class="card__subtitle">Efektivní třídění a zpracování odpadu je základním kamenem pro minimalizaci jeho dopadu na životní prostředí.</h6>
+                <div class="contact__info__container flex al-m-between">
+                    <div class="contact__info flex flex-col al-s-start gap-3">
+                        <div class="contact__title__container flex gap-3">
+                            <img src="images/location_icon.svg" alt="location icon">
+                            <h4 class="contact__info__title">Adresa</h4>
+                        </div>
+                        <div class="contact__address__container">
+                            <p>Hlavní sídlo: Marius Pedersen a.s.</p>
+                            <p>Průběžná 1940/3</p>
+                            <p>Hradec Králové, 500 09</p>
+                            <p>IČ: 12365478</p>
+                            <p>DIČ: CZ98745632</p>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2554.247258460361!2d15.854246076843959!3d50.193909005801835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470dd4bfe90e69f1%3A0x108e2fb9ea2dadc2!2zUHLFr2LEm8W-bsOhIDE5NDAvMywgNTAwIDA5IE5vdsO9IEhyYWRlYyBLcsOhbG92w6k!5e0!3m2!1scs!2scz!4v1763838150100!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="contact__info flex flex-col al-s-start gap-3">
+                        <div class="contact__title__container flex gap-3">
+                            <img src="images/clock_icon.svg" alt="time icon">
+                            <h4 class="contact__info__title">Otevírací doba</h4>
+                        </div>
+                        <ul class="contact__oh__list">
+                            <li class="contact__oh__item flex al-m-between">
+                                <p>Pondělí:</p>
+                                <p>7:30 - 16:30</p>
+                            </li>
+                            <li class="contact__oh__item flex al-m-between">
+                                <p>Úterý:</p>
+                                <p>7:30 - 16:30</p>
+                            </li>
+                            <li class="contact__oh__item flex al-m-between">
+                                <p>Středa:</p>
+                                <p>7:30 - 16:30</p>
+                            </li>
+                            <li class="contact__oh__item flex al-m-between">
+                                <p>Čtvrtek:</p>
+                                <p>7:30 - 16:30</p>
+                            </li>
+                            <li class="contact__oh__item flex al-m-between">
+                                <p>Pátek:</p>
+                                <p>7:30 - 16:30</p>
+                            </li>
+                            <li class="contact__oh__item flex al-m-between">
+                                <p>Sobota:</p>
+                                <p>Zavřeno</p>
+                            </li>
+                            <li class="contact__oh__item flex al-m-between">
+                                <p>Neděle:</p>
+                                <p>Zavřeno</p>
+                            </li>
+                        </ul>
+                        <div class="dashboard__card flex flex-col al-s-start gap-5">
+                            <h5>Zavolejte nám</h5>
+                            <h4>+420 159 263 487</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -130,14 +136,12 @@
                     <li><a href="Kontakt.html">Kontakt <img src="images/arrowRight.svg" alt="icon image"></a></li>
                 </ul>
             </div>
-
             <div class="copyright__container flex flex-col al-s-end al-m-end">
                 <p class="copyright">© Adam Hladík, FIM UHK, 2025</p>
                 <p class="copyright">hladiad2@uhk.cz</p>
                 <p class="copyright">last edit: DD.MM.YYYY</p>
             </div>
         </div>
-
         <div class="disclaimer__container flex al-s-center gap-4" role="note">
             <h1 class="disclaimer__title">Disclaimer</h1>
             <p class="disclaimer__text">
@@ -146,6 +150,5 @@
         </div>
     </footer>
 </div>
-
 </body>
 </html>
