@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<div class="landing__container">
+    <header class="header flex al-s-center gap-2 al-m-between">
+        <a href="../main/Main.html" class="logo__container flex al-s-center gap-2">
+            <div class="logo__image">
+                <img src="../images/MariusPedersenLogo.png" alt="Logo">
+            </div>
+            <div class="logo__title__container">
+                <h1>Marius Pedersen</h1>
+                <h2>Pořádek dělá přátele</h2>
+            </div>
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav__toggle" aria-controls="navList" aria-label="Otevřít menu">
+        <label for="nav-toggle" class="hamburger" aria-hidden="false">
+            <span class="hamburger__box"><span class="hamburger__inner"></span></span>
+        </label>
+        <div class="nav__container">
+            <nav class="nav">
+                <ul class="nav__list flex-center gap-5">
+                    <li class="menu__item__with__icon flex al-s-center gap-1">
+                        <a href="../main/Provozovny.html">Provozovny</a>
+                        <img src="../images/arrowDropDown.svg" alt="Arrow Down">
+                    </li>
+                    <li class="menu__item__with__icon flex al-s-center gap-1">
+                        <a href="../main/Sluzby.html">Služby</a>
+                        <img src="../images/arrowDropDown.svg" alt="Arrow Down">
+                    </li>
+                    <li class="menu__item__with__icon flex al-s-center gap-1">
+                        <a href="../main/Kariera.html">Kariéra</a>
+                        <img src="../images/arrowDropDown.svg" alt="Arrow Down">
+                    </li>
+                    <li class="menu__item__with__icon flex al-s-center gap-1">
+                        <a href="../main/Novinky.html">Novinky</a>
+                        <img src="../images/arrowDropDown.svg" alt="Arrow Down">
+                    </li>
+                    <li class="menu__item__with__icon flex al-s-center gap-1">
+                        <a href="../main/Kontakt.html">Kontakt</a>
+                        <img src="../images/arrowDropDown.svg" alt="Arrow Down">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main flex flex-col al-m-center gap-0">
+        <div class="sub-page__header flex flex-col al-s-center gap-2">
+            <div class="img__wrapper flex al-s-end">
+                <img src="../images/backgroundImage.jpg" alt="background image" class="bg__image">
+                <div class="dark__overlay"></div>
+            </div>
+            <div class="sub-page__title__container flex flex-row al-m-start al-s-center gap-2">
+                <h1 class="sub-page__title">Mistr provozu vozidel</h1>
+            </div>
+        </div>
+        <div class="content__container flex flex-col al-s-center">
+            <div class="simple__col__container flex flex-col al-s-star gap-4">
+                <h3>Oficiální prohlášení společnosti Marius Pedersen a.s.</h3>
+                <p>Společnost Marius Pedersen a.s. Česká republika potvrzuje, že skupina A/S Marius Pedersen Dánsko zahájila proces, jehož cílem je nalezení nového strategického vlastníka pro své aktivity v České republice a na Slovensku. Tento krok je standardní obchodní a strategickou operací, která představuje pouze změnu vlastníka společnosti, nikoli ukončení nebo omezení její činnosti. Proces prodeje je přirozenou součástí dlouhodobého rozvoje společnosti a odpovídá běžné praxi v mezinárodním podnikatelském prostředí. Dánský vlastník se k prodeji rozhodl z důvodu orientace na dánský vnitřní trh v rámci jejich strategie Green Future, která počítá s iniciativou CO2 neutrality do roku 2035. Tato strategie není slučitelná s podmínkami na českém a slovenském trhu.</p>
+                <p>Naše firma bude i nadále fungovat ve stejném rozsahu a kvalitě služeb, na které jsou naši zákazníci a partneři zvyklí. Veškeré uzavřené smlouvy, zakázky, výběrová řízení i dohodnuté obchodní podmínky zůstávají v platnosti, nedochází k žádným změnám v poskytovaných službách, jejich cenách ani v jejich dostupnosti. Naším hlavním cílem je zajistit, aby celý proces proběhl transparentně, plynule a bez jakéhokoli negativního dopadu na veřejné i komerční klienty, partnerská města a obce a zaměstnance.</p>
+                <p>V Hradci Králové dne 21.10.2025</p>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="footer__container flex al-m-between">
+            <div class="nav__card">
+                <h4 id="company-name" class="card-title">Marius Pedersen</h4>
+                <ul class="card__links">
+                    <li><a href="../main/Main.html">O společnosti <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                    <li><a href="../main/Provozovny.html">Provozovny <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                    <li><a href="../main/Sluzby.html">Služby <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                    <li><a href="../main/Kariera.html">Kariéra <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                    <li><a href="../main/Novinky.html">Novinky <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                    <li><a href="../main/Kontakt.html">Kontakt <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                </ul>
+            </div>
+
+            <div class="copyright__container flex flex-col al-s-end al-m-end">
+                <p class="copyright">© Adam Hladík, FIM UHK, 2025</p>
+                <p class="copyright">hladiad2@uhk.cz</p>
+                <p class="copyright">last edit: DD.MM.YYYY</p>
+            </div>
+        </div>
+
+        <div class="disclaimer__container flex al-s-center gap-4" role="note">
+            <h1 class="disclaimer__title">Disclaimer</h1>
+            <p class="disclaimer__text">
+                Tyto webové stránky byly vytvořeny v rámci studentského zápočtového projektu, jejich obsah je smyšlený a nepředstavuje skutečnou nabídku produktu či služby.
+            </p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

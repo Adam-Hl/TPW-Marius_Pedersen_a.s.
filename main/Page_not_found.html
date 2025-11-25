@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<div class="landing__container">
+    <header class="header flex al-s-center gap-2 al-m-between">
+        <a href="../main/Main.html" class="logo__container flex al-s-center gap-2">
+            <div class="logo__image">
+                <img src="../images/MariusPedersenLogo.png" alt="Logo">
+            </div>
+            <div class="logo__title__container">
+                <h1>Marius Pedersen</h1>
+                <h2>Pořádek dělá přátele</h2>
+            </div>
+        </a>
+        <input type="checkbox" id="nav-toggle" class="nav__toggle" aria-controls="navList" aria-label="Otevřít menu">
+        <label for="nav-toggle" class="hamburger" aria-hidden="false">
+            <span class="hamburger__box"><span class="hamburger__inner"></span></span>
+        </label>
+        <div class="nav__container">
+            <nav class="nav">
+                <ul class="nav__list flex-center gap-5">
+                    <li class="menu__item__with__icon flex al-s-center gap-1">
+                        <a href="../main/Provozovny.html">Provozovny</a>
+                        <img src="../images/arrowDropDown.svg" alt="Arrow Down">
+                    </li>
+                    <li class="menu__item__with__icon flex al-s-center gap-1">
+                        <a href="../main/Sluzby.html">Služby</a>
+                        <img src="../images/arrowDropDown.svg" alt="Arrow Down">
+                    </li>
+                    <li class="menu__item__with__icon flex al-s-center gap-1">
+                        <a href="../main/Kariera.html">Kariéra</a>
+                        <img src="../images/arrowDropDown.svg" alt="Arrow Down">
+                    </li>
+                    <li class="menu__item__with__icon flex al-s-center gap-1">
+                        <a href="../main/Novinky.html">Novinky</a>
+                        <img src="../images/arrowDropDown.svg" alt="Arrow Down">
+                    </li>
+                    <li class="menu__item__with__icon flex al-s-center gap-1">
+                        <a href="../main/Kontakt.html">Kontakt</a>
+                        <img src="../images/arrowDropDown.svg" alt="Arrow Down">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main flex flex-col al-m-center gap-0">
+        <div class="sub-page__header flex flex-col al-s-center gap-2">
+            <div class="img__wrapper flex al-s-end">
+                <img src="../images/backgroundImage.jpg" alt="background image" class="bg__image">
+                <div class="dark__overlay"></div>
+            </div>
+            <div class="sub-page__title__container flex flex-row flex-center gap-2">
+                <h1 class="sub-page__title">Error 404</h1>
+            </div>
+        </div>
+        <div class="content__container flex flex-col al-s-center">
+            <div class="error__card flex flex-col al-s-center gap-4">
+                <h2 class="error__title">Stránka nenalezena</h2>
+                <p class="error__message">Omlouváme se, ale stránka, kterou hledáte, nebyla nalezena.</p>
+                <a href="../main/Main.html" class="error__link">
+                    <h6>Vrátit se na hlavní stránku</h6>
+                </a>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" role="contentinfo">
+        <div class="footer__container flex al-m-between">
+            <div class="nav__card">
+                <h4 id="company-name" class="card-title">Marius Pedersen</h4>
+                <ul class="card__links">
+                    <li><a href="../main/Main.html">O společnosti <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                    <li><a href="../main/Provozovny.html">Provozovny <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                    <li><a href="../main/Sluzby.html">Služby <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                    <li><a href="../main/Kariera.html">Kariéra <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                    <li><a href="../main/Novinky.html">Novinky <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                    <li><a href="../main/Kontakt.html">Kontakt <img src="../images/arrowRight.svg" alt="icon image"></a></li>
+                </ul>
+            </div>
+
+            <div class="copyright__container flex flex-col al-s-end al-m-end">
+                <p class="copyright">© Adam Hladík, FIM UHK, 2025</p>
+                <p class="copyright">hladiad2@uhk.cz</p>
+                <p class="copyright">last edit: DD.MM.YYYY</p>
+            </div>
+        </div>
+
+        <div class="disclaimer__container flex al-s-center gap-4" role="note">
+            <h1 class="disclaimer__title">Disclaimer</h1>
+            <p class="disclaimer__text">
+                Tyto webové stránky byly vytvořeny v rámci studentského zápočtového projektu, jejich obsah je smyšlený a nepředstavuje skutečnou nabídku produktu či služby.
+            </p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
