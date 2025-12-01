@@ -413,10 +413,10 @@
             font-size: var(--font-size-2xl);
         }
         .info__container h2 {
-            font-size: var(--font-size-xl);
+            font-size: var(--font-size-md);
         }
         .info__container h6 {
-            font-size: var(--font-size-xs);
+            font-size: var(--font-size-2xs);
         }
     }
 
@@ -708,6 +708,11 @@
         position: relative;
         width: 20rem;
     }
+    @media (max-width: 720px), (max-width: 900px) {
+        .service__item {
+            width: 100%;
+        }
+    }
 
     .service__item h6 {
         font-size: var(--font-size-sm);
@@ -751,15 +756,7 @@
         border-radius: var(--radius-lg);
         gap: 7rem;
     }
-    @media (max-width: 900px) {
-        .positions__welcome__container {
-            width: 90%;
-            height: auto;
-            gap: var(--space-5);
-            padding: var(--space-5);
-        }
-    }
-    @media (max-width: 720px){
+    @media (max-width: 720px), (max-width: 900px){
         .positions__welcome__container {
             width: 90%;
             height: auto;
@@ -774,7 +771,7 @@
         object-fit: cover;
         display: block;
     }
-    @media (max-width: 720px) {
+    @media (max-width: 720px), (max-width: 900px) {
         .positions__welcome__container .positions__welcome__image {
             width: 100%;
         }
@@ -785,6 +782,11 @@
         color: var(--color-text-dark);
         padding: var(--space-5);
         height: 11rem;
+    }
+    @media (max-width: 720px), (max-width: 900px) {
+        .positions__welcome h3 {
+            font-size: var(--font-size-md);
+        }
     }
 
     .decorative__shape {
@@ -811,13 +813,7 @@
         transform-origin: center center;
     }
 
-    @media (max-width: 900px) {
-        .position__link {
-            width: 40rem;
-            margin-left: var(--space-3);
-        }
-    }
-    @media (max-width: 720px) {
+    @media (max-width: 720px), (max-width: 900px) {
         .position__link {
             width: 90%;
             margin-left: var(--space-4);
@@ -919,6 +915,7 @@
     @media (max-width: 720px), (max-width: 900px) {
         .contact__info {
             width: 100%;
+            padding: var(--space-3);
         }
         .contact__info iframe {
             width: 100%;
